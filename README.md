@@ -8,18 +8,19 @@ Welcome to my personal portfolio website! This is a modern, responsive, and inte
 - **Modern UI/UX**: Clean and professional design with smooth animations
 - **Interactive Elements**: Hover effects, smooth scrolling, and dynamic content loading
 - **Contact Form**: Integrated with EmailJS for easy communication
-- **Dark/Light Mode**: Toggle between different color schemes (if implemented)
 - **Performance Optimized**: Built with Vite for fast development and production builds
+- **Modern Animations**: Smooth transitions and interactive elements using Framer Motion
+- **Professional Icons**: Comprehensive icon set from React Icons
 
 ## 🛠️ Technologies Used
 
 - **Frontend**: React 18
-- **Styling**: Tailwind CSS
+- **Styling**: Tailwind CSS with custom configurations
 - **Build Tool**: Vite
-- **Animation**: React Spring, Framer Motion (if used)
+- **Animation**: React Spring and Framer Motion for smooth animations
 - **Icons**: React Icons
-- **Form Handling**: EmailJS
-- **Deployment**: GitHub Pages/Vercel/Netlify
+- **Form Handling**: EmailJS for contact form functionality
+- **Deployment**: Deployed on GitHub Pages with Vercel/Netlify integration
 
 ## 🚀 Getting Started
 
