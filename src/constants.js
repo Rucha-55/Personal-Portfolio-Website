@@ -48,6 +48,7 @@ import webverLogo from './assets/work_logo/web_dig.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
+import project from './assets/work_logo/project.png';
 
 export const SkillsInfo = [
   {
@@ -110,7 +111,7 @@ export const experiences = [
     role: "Data Science Developer",
     company: "Grapes Farm Planner (Hackathon Project)",
     date: "May 2025 - Present",
-    desc: "Engineered a crop planning and resource management system for grape farming, leveraging data analytics and scheduling algorithms to optimize agricultural workflows. Utilized Python and pandas for data processing, and employed Jupyter Notebooks to visualize seasonal patterns and yield predictions. Focused on modular design principles, intuitive data dashboards, and scalable code architecture, aiming to improve farming efficiency and decision-making for vineyard management.",
+    desc: "This project is sponsored by WinJit. Engineered a crop planning and resource management system for grape farming, leveraging data analytics and scheduling algorithms to optimize agricultural workflows. Utilized Python and pandas for data processing, and employed Jupyter Notebooks to visualize seasonal patterns and yield predictions. Focused on modular design principles, intuitive data dashboards, and scalable code architecture, aiming to improve farming efficiency and decision-making for vineyard management.",
     skills: [
       "HTML",
       "CSS",
@@ -179,92 +180,62 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "GitHub Profile Detective",
+    title: "Grapes Disease Detection & Farm Planner",
     description:
-      "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-    image: githubdetLogo,
-    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    webapp: "https://githubprofiledetective.netlify.app/",
+      "An intelligent farming solution that combines disease detection using deep learning and comprehensive farm planning. The system uses computer vision to identify grape diseases and provides optimized crop planning recommendations based on data analytics.",
+    image: project,
+    tags: ["Python", "TensorFlow", "Keras", "Data Science", "Machine Learning", "Farm Management"],
+    github: "https://github.com/Rucha-55/grapes-farm-planner",
+    webapp: "",
   },
   {
     id: 1,
-    title: "CS Prep",
+    title: "Krushigandha Agro - Cattle Feed Website",
     description:
-      "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-    image: csprepLogo,
-    tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/CSPrep",
-    webapp: "https://csprep.netlify.app/",
+      "A comprehensive e-commerce website for Krushigandha Agro, specializing in cattle feed products. Features include product catalog, online ordering system, company information, and location details. Built with modern web technologies to provide a seamless user experience for farmers and livestock owners.",
+    image: project,
+    tags: ["SQL", "Django", "HTML","CSS", "JavaScript","E-commerce", "Responsive Design"],
+    github: "https://github.com/Rucha-55/KrushigandhaAgro",
+    webapp: "https://krushigandhaagro.onrender.com/",
   },
   {
     id: 2,
-    title: "Movie Recommendation App",
+    title: "Pharmacy Management App",
     description:
-      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-    image: movierecLogo,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      "A mobile application built with React Native and Expo for managing pharmacy operations. Features include medicine inventory management, customer records, sales tracking, and real-time notifications using Firebase. The app provides a seamless experience for pharmacy management on mobile devices.",
+    image: project,
+    tags: ["React Native", "Firebase", "Expo", "Mobile Development", "Real-time Data", "Pharmacy Management"],
+    github: "https://github.com/Rucha-55/pharmacy-management-app",
+    webapp: "",
   },
   {
     id: 3,
-    title: "Email Validator NPM Package",
+    title: "Pharmacy Management System",
     description:
-      "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-    image: npmLogo,
-    tags: ["React JS", "Node.js", "NPM", "Validation"],
-    github: "https://github.com/codingmastr/cmtk-email-validator",
-    webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+      "A comprehensive web-based pharmacy management system built with PHP and MySQL. Features include medicine inventory management, customer management, sales tracking, and reporting. The system provides an intuitive interface for managing pharmacy operations efficiently.",
+    image: project,
+    tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Web Development", "Database Management"],
+    github: "https://github.com/Rucha-55/Pharmacy_Management_System",
+    webapp: "",
   },
   {
     id: 4,
-    title: "Task Reminder Chrome Extension Tool",
+    title: "Netflix Clone",
     description:
-      "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-    image: taskremLogo,
-    tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+      "A responsive Netflix clone built with React.js and Tailwind CSS. Features include movie browsing, search functionality, and a modern streaming interface. The application fetches movie data from external APIs and provides a smooth user experience similar to Netflix.",
+    image: project,
+    tags: ["React JS", "API", "Tailwind CSS", "HTML", "CSS", "JavaScript", "Movie Streaming"],
+    github: "https://github.com/Rucha-55/Netflix-Clone",
+    webapp: "",
   },
   {
     id: 5,
-    title: "Webverse Digital",
+    title: "Diabetes Prediction App",
     description:
-      "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-    image: webverLogo,
-    tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-    github: "https://github.com/codingmastr/Webverse-Digital",
-    webapp: "https://webversedigital.com/",
-  },
-  {
-    id: 6,
-    title: "Coding Master",
-    description:
-      "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-    image: cmLogo,
-    tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-    github: "https://codingmasterweb.in/",
-    webapp: "https://codingmasterweb.in/",
-  },
-  {
-    id: 7,
-    title: "Image Search App",
-    description:
-      "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-    image: imagesearchLogo,
-    tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Search-App",
-    webapp: "https://imagsearch.netlify.app/",
-  },
-  {
-    id: 8,
-    title: "Image Background Remover",
-    description:
-      "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-    image: removebgLogo,
-    tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Background-Remover",
-    webapp: "https://removeyourbg.netlify.app/",
-  },
+      "A web-based application that predicts the likelihood of diabetes using machine learning algorithms. Built with Python and deployed on Render, the app provides a user-friendly interface for medical professionals and patients to input health data and receive accurate predictions.",
+    image: project,
+    tags: ["Python", "Machine Learning", "Data Science", "Healthcare", "Web Development", "Flask"],
+    github: "https://github.com/Rucha-55/Diabetes-Prediction",
+    webapp: "https://diabetes-prediction-hn2z.onrender.com",
+  }
 ];

@@ -33,7 +33,7 @@ const Work = () => {
           <div
             key={project.id}
             onClick={() => handleOpenModal(project)}
-            className="border border-white bg-gray-900 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden cursor-pointer hover:shadow-purple-500/50 hover:-translate-y-2 transition-transform duration-300"
+            className="border border-white bg-gray-900 backdrop-blur-md rounded-xl shadow-xl overflow-hidden cursor-pointer hover:shadow-purple-500/50 hover:-translate-y-1 transition-transform duration-300"
           >
             <div className="p-4">
               <img
@@ -67,11 +67,19 @@ const Work = () => {
       {/* Modal Container */}
       {selectedProject && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
-          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">
-            <div className="flex justify-end p-4">
+          <div
+            className="bg-gray-900 rounded-xl shadow-xl w-[95%] max-w-2xl overflow-hidden relative"
+          >
+            <div className="flex justify-between p-4">
               <button
                 onClick={handleCloseModal}
-                className="text-white text-3xl font-bold hover:text-purple-500"
+                className="text-white text-xl font-semibold hover:text-purple-500"
+              >
+                Back
+              </button>
+              <button
+                onClick={handleCloseModal}
+                className="text-white text-xl font-semibold hover:text-purple-500"
               >
                 &times;
               </button>
@@ -86,10 +94,14 @@ const Work = () => {
                 />
               </div>
               <div className="lg:p-8 p-6">
-                <h3 className="lg:text-3xl font-bold text-white mb-4 text-md">
+                <h3
+                  className="lg:text-2xl font-bold text-white mb-4 text-sm"
+                >
                   {selectedProject.title}
                 </h3>
-                <p className="text-gray-400 mb-6 lg:text-base text-xs">
+                <p
+                  className="text-gray-400 mb-6 lg:text-sm text-xs"
+                >
                   {selectedProject.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-6">
@@ -107,7 +119,7 @@ const Work = () => {
                     href={selectedProject.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-4 lg:py-1.5 px-2 py-1 rounded-xl lg:text-lg text-sm font-semibold text-center"
                   >
                     View Code
                   </a>
@@ -115,7 +127,7 @@ const Work = () => {
                     href={selectedProject.webapp}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-4 lg:py-1.5 px-2 py-1 rounded-xl lg:text-lg text-sm font-semibold text-center"
                   >
                     View Live
                   </a>
